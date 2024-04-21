@@ -45,10 +45,12 @@ Weather.propTypes = {
 
 const styles = StyleSheet.create({
   weatherContainer: {
-    flex: 1
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%'
   },
   headerContainer: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around'
@@ -58,11 +60,8 @@ const styles = StyleSheet.create({
     color: '#fff'
   },
   bodyContainer: {
-    flex: 2,
-    alignItems: 'flex-start',
-    justifyContent: 'flex-end',
-    paddingLeft: 25,
-    marginBottom: 40
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   title: {
     fontSize: 60,
